@@ -12,6 +12,7 @@ class Theme {
     static func errorColor() -> UIColor {
         return UIColor.FlatColor.Red.brightCoral
     }
+    
     static func greenColor() -> UIColor {
         return UIColor.FlatColor.Green.mintLight
     }
