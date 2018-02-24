@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C325CEBD2041F7B100F5E112 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C325CEBC2041F7B100F5E112 /* HomeViewController.swift */; };
+		C325CEBF2041F7C800F5E112 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C325CEBE2041F7C800F5E112 /* HistoryViewController.swift */; };
+		C325CEC12041F92900F5E112 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C325CEC02041F92900F5E112 /* DetailViewController.swift */; };
+		C325CEC32041FA5C00F5E112 /* FeedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C325CEC22041FA5C00F5E112 /* FeedCollectionViewCell.swift */; };
+		C325CEC52041FE7C00F5E112 /* MediCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C325CEC42041FE7C00F5E112 /* MediCollectionViewCell.swift */; };
+		C325CEC72042072700F5E112 /* WarningHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C325CEC62042072700F5E112 /* WarningHeaderView.swift */; };
+		C325CEC9204208EB00F5E112 /* HistoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C325CEC8204208EB00F5E112 /* HistoryCollectionViewCell.swift */; };
+		C325CECB204209E600F5E112 /* UIBezierPath+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C325CECA204209E600F5E112 /* UIBezierPath+Extension.swift */; };
+		C325CECD20420A0000F5E112 /* Hexagon.swift in Sources */ = {isa = PBXBuildFile; fileRef = C325CECC20420A0000F5E112 /* Hexagon.swift */; };
+		C325CECF20420FE800F5E112 /* OverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C325CECE20420FE800F5E112 /* OverviewViewController.swift */; };
+		C325CED12042114D00F5E112 /* OverviewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C325CED02042114D00F5E112 /* OverviewCollectionViewCell.swift */; };
 		C3AD49572041DBDB00A85A5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AD49562041DBDB00A85A5B /* AppDelegate.swift */; };
 		C3AD49592041DBDB00A85A5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AD49582041DBDB00A85A5B /* ViewController.swift */; };
 		C3AD495C2041DBDB00A85A5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3AD495A2041DBDB00A85A5B /* Main.storyboard */; };
@@ -23,9 +34,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C325CEBC2041F7B100F5E112 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = EatUrPills/Controllers/HomeViewController.swift; sourceTree = SOURCE_ROOT; };
+		C325CEBE2041F7C800F5E112 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HistoryViewController.swift; path = EatUrPills/Controllers/HistoryViewController.swift; sourceTree = SOURCE_ROOT; };
+		C325CEC02041F92900F5E112 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = EatUrPills/Controllers/DetailViewController.swift; sourceTree = SOURCE_ROOT; };
+		C325CEC22041FA5C00F5E112 /* FeedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCollectionViewCell.swift; sourceTree = "<group>"; };
+		C325CEC42041FE7C00F5E112 /* MediCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediCollectionViewCell.swift; sourceTree = "<group>"; };
+		C325CEC62042072700F5E112 /* WarningHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarningHeaderView.swift; sourceTree = "<group>"; };
+		C325CEC8204208EB00F5E112 /* HistoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		C325CECA204209E600F5E112 /* UIBezierPath+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBezierPath+Extension.swift"; sourceTree = "<group>"; };
+		C325CECC20420A0000F5E112 /* Hexagon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hexagon.swift; sourceTree = "<group>"; };
+		C325CECE20420FE800F5E112 /* OverviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OverviewViewController.swift; path = EatUrPills/Views/OverviewViewController.swift; sourceTree = SOURCE_ROOT; };
+		C325CED02042114D00F5E112 /* OverviewCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewCollectionViewCell.swift; sourceTree = "<group>"; };
 		C3AD49532041DBDB00A85A5B /* EatUrPills.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EatUrPills.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3AD49562041DBDB00A85A5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C3AD49582041DBDB00A85A5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C3AD49582041DBDB00A85A5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../Controllers/ViewController.swift; sourceTree = "<group>"; };
 		C3AD495B2041DBDB00A85A5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C3AD495D2041DBDB00A85A5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3AD49602041DBDB00A85A5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -88,6 +110,11 @@
 			children = (
 				C3AD49892041DDE300A85A5B /* MedItem.swift */,
 				C3AD499A2041DF9100A85A5B /* VacItem.swift */,
+				C325CEC62042072700F5E112 /* WarningHeaderView.swift */,
+				C325CEC22041FA5C00F5E112 /* FeedCollectionViewCell.swift */,
+				C325CED02042114D00F5E112 /* OverviewCollectionViewCell.swift */,
+				C325CEC8204208EB00F5E112 /* HistoryCollectionViewCell.swift */,
+				C325CEC42041FE7C00F5E112 /* MediCollectionViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -106,7 +133,9 @@
 			isa = PBXGroup;
 			children = (
 				C3AD498F2041DDE300A85A5B /* CustomDrawView.swift */,
+				C325CECA204209E600F5E112 /* UIBezierPath+Extension.swift */,
 				C3AD49902041DDE300A85A5B /* UIColor+FlatColorExtension.swift */,
+				C325CECC20420A0000F5E112 /* Hexagon.swift */,
 				C3AD49912041DDE300A85A5B /* Theme.swift */,
 			);
 			path = Extensions;
@@ -116,6 +145,10 @@
 			isa = PBXGroup;
 			children = (
 				C3AD49582041DBDB00A85A5B /* ViewController.swift */,
+				C325CEBE2041F7C800F5E112 /* HistoryViewController.swift */,
+				C325CEBC2041F7B100F5E112 /* HomeViewController.swift */,
+				C325CEC02041F92900F5E112 /* DetailViewController.swift */,
+				C325CECE20420FE800F5E112 /* OverviewViewController.swift */,
 			);
 			name = Controllers;
 			path = Controlelrs;
@@ -193,15 +226,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C325CEC12041F92900F5E112 /* DetailViewController.swift in Sources */,
 				C3AD49982041DDE300A85A5B /* Theme.swift in Sources */,
 				C3AD49592041DBDB00A85A5B /* ViewController.swift in Sources */,
 				C3AD49922041DDE300A85A5B /* MedItem.swift in Sources */,
+				C325CEBF2041F7C800F5E112 /* HistoryViewController.swift in Sources */,
 				C3AD49572041DBDB00A85A5B /* AppDelegate.swift in Sources */,
+				C325CECF20420FE800F5E112 /* OverviewViewController.swift in Sources */,
 				C3AD49952041DDE300A85A5B /* Vaccine.swift in Sources */,
 				C3AD499B2041DF9100A85A5B /* VacItem.swift in Sources */,
 				C3AD49972041DDE300A85A5B /* UIColor+FlatColorExtension.swift in Sources */,
+				C325CECB204209E600F5E112 /* UIBezierPath+Extension.swift in Sources */,
+				C325CEBD2041F7B100F5E112 /* HomeViewController.swift in Sources */,
+				C325CEC52041FE7C00F5E112 /* MediCollectionViewCell.swift in Sources */,
+				C325CED12042114D00F5E112 /* OverviewCollectionViewCell.swift in Sources */,
+				C325CECD20420A0000F5E112 /* Hexagon.swift in Sources */,
 				C3AD49942041DDE300A85A5B /* Intak.swift in Sources */,
+				C325CEC9204208EB00F5E112 /* HistoryCollectionViewCell.swift in Sources */,
+				C325CEC72042072700F5E112 /* WarningHeaderView.swift in Sources */,
 				C3AD49932041DDE300A85A5B /* Medicine.swift in Sources */,
+				C325CEC32041FA5C00F5E112 /* FeedCollectionViewCell.swift in Sources */,
 				C3AD49962041DDE300A85A5B /* CustomDrawView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

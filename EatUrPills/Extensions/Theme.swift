@@ -25,6 +25,11 @@ class Theme {
     static func fontDescColor() -> UIColor {
         return UIColor(hex: 0x191970).withAlphaComponent(0.5)
     }
+    
+    static func containerColor() -> UIColor {
+        return UIColor.FlatColor.White.clouds
+    }
+    
     // font type and size
     static func fontTitle() -> UIFont {
         return UIFont(name: "Avenir-Medium", size: 25)!
