@@ -89,8 +89,7 @@
 				C3AD49892041DDE300A85A5B /* MedItem.swift */,
 				C3AD499A2041DF9100A85A5B /* VacItem.swift */,
 			);
-			name = Views;
-			path = ../../EatUrPill/EatUrPills/Views;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		C3AD498A2041DDE300A85A5B /* Models */ = {
@@ -100,8 +99,7 @@
 				C3AD498C2041DDE300A85A5B /* Intak.swift */,
 				C3AD498D2041DDE300A85A5B /* Vaccine.swift */,
 			);
-			name = Models;
-			path = ../../EatUrPill/EatUrPills/Models;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		C3AD498E2041DDE300A85A5B /* Extensions */ = {
@@ -111,8 +109,7 @@
 				C3AD49902041DDE300A85A5B /* UIColor+FlatColorExtension.swift */,
 				C3AD49912041DDE300A85A5B /* Theme.swift */,
 			);
-			name = Extensions;
-			path = ../../EatUrPill/EatUrPills/Extensions;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		C3AD49992041DDF500A85A5B /* Controllers */ = {
