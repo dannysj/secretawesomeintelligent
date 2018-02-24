@@ -12,6 +12,7 @@
 		C37309F42041C8EF00BC27B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C37309F22041C8EF00BC27B2 /* Main.storyboard */; };
 		C37309F62041C8F200BC27B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C37309F52041C8F200BC27B2 /* Assets.xcassets */; };
 		C37309F92041C8F200BC27B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C37309F72041C8F200BC27B2 /* LaunchScreen.storyboard */; };
+		C3730A012041CADA00BC27B2 /* Medicine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3730A002041CADA00BC27B2 /* Medicine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C37309F52041C8F200BC27B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C37309F82041C8F200BC27B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C37309FA2041C8F200BC27B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3730A002041CADA00BC27B2 /* Medicine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medicine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +62,17 @@
 				C37309F52041C8F200BC27B2 /* Assets.xcassets */,
 				C37309F72041C8F200BC27B2 /* LaunchScreen.storyboard */,
 				C37309FA2041C8F200BC27B2 /* Info.plist */,
+				C3730A022041CAE500BC27B2 /* Models */,
 			);
 			path = EatUrPills;
+			sourceTree = "<group>";
+		};
+		C3730A022041CAE500BC27B2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C3730A002041CADA00BC27B2 /* Medicine.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C37309F12041C8EF00BC27B2 /* ViewController.swift in Sources */,
+				C3730A012041CADA00BC27B2 /* Medicine.swift in Sources */,
 				C37309EF2041C8EF00BC27B2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
