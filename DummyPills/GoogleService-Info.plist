@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>1023613761307-1k3co6uk6ihs1frpujotjpqs7dip0dmv.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1023613761307-1k3co6uk6ihs1frpujotjpqs7dip0dmv</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBlA-BV6ruN-zooxwhyX19VkXdOW8RS00I</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1023613761307</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>testtest.DummyPills</string>
+	<key>PROJECT_ID</key>
+	<string>eaturpills</string>
+	<key>STORAGE_BUCKET</key>
+	<string>eaturpills.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1023613761307:ios:0d1d6794d0c0f566</string>
+	<key>DATABASE_URL</key>
+	<string>https://eaturpills.firebaseio.com</string>
+</dict>
+</plist>
